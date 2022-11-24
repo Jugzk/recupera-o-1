@@ -1,0 +1,31 @@
+a = [0, 0, 0]
+b = [0, 0, 0]
+c = [0, 0, 0]
+
+print( a, "\n", b, "\n", c)
+
+linha1a = int(input("digite a primeiro numero da primeira coluna: "))
+linha2a = int(input("digite a segundo numero da primeira coluna: "))
+linha3a = int(input("digite a terceiro numero da primeira coluna: "))
+
+linha1b = int(input("digite a primeiro numero da segunda coluna: "))
+linha2b = int(input("digite a segundo numero da segunda coluna: "))
+linha3b = int(input("digite a terceiro numero da segunda coluna: "))
+
+linha1c = int(input("digite a primeiro numero da terceira coluna: "))
+linha2c = int(input("digite a segundo numero da terceira coluna: "))
+linha3c = int(input("digite a terceiro numero da terceira coluna: "))
+
+a = [linha1a, linha2a, linha3a]
+b = [linha1b, linha2b, linha3b]
+c = [linha1c, linha2c, linha3c]
+
+#a
+print( a, "\n", b, "\n", c)
+
+#b
+maximo = max(linha1a, linha2b, linha3c)
+print("numero mai=ximo é:", maximo)
+
+minimo = min(linha1a, linha2b, linha3c)
+print("numero minimo é: ", minimo)
