@@ -1,0 +1,25 @@
+import datetime
+
+
+nomealuno = input ("Bem vindo a autoescola Geremias car. \n"
+                   "Como se chama? ")
+anodenascimento = eval (input ("Nasceu em que ano? "))
+mesnascimento = eval (input ("Nasceu em que mês? "))
+dianascimento = eval (input ("Nasceu em que dia? "))
+anoatual = eval (input ("Ano atual? "))
+mesatual = eval (input ("Mês atual? "))
+diaatual = eval (input ("Dia atual? "))
+nasceu = datetime.date(anodenascimento, mesnascimento, dianascimento)
+agora = datetime.date(anoatual, mesatual, diaatual)
+
+
+diferenca = (agora - nasceu)
+
+rslt = (diferenca.days / 365.25)
+
+
+if (dianascimento == diaatual and mesnascimento == mesatual):
+    print ("Você pode realizar a inscrição, já é maior")
+else:
+    ((dianascimento > diaatual and mesnascimento == mesatual) or mesnascimento < mesatual)
+    print ("VocÊ é de menor não pode dirigir")
