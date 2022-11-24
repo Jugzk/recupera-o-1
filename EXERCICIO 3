@@ -1,0 +1,70 @@
+contadorpares = 0
+contadorimpares = 0
+
+
+numero1 = int(input('Digite um numero: '))
+numero2 = int(input('Digite um numero: '))
+numero3 = int(input('Digite um numero: '))
+numero4 = int(input('Digite um numero: '))
+numero5 = int(input('Digite um numero: '))
+numero6 = int(input('Digite um numero: '))
+numero7 = int(input('Digite um numero: '))
+numero8 = int(input('Digite um numero: '))
+numero9 = int(input('Digite um numero: '))
+numero10 = int(input('Digite um numero: '))
+
+lista = (numero3, numero2, numero1, numero9, numero10, numero8, numero7, numero6, numero4, numero5)
+if numero1 % 2 == 0:
+    contadorpares += 1
+else:
+    contadorimpares += 1
+
+if numero2 % 2 == 0:
+    contadorpares += 1
+else:
+    contadorimpares += 1
+
+if numero3 % 2 == 0:
+    contadorpares += 1
+else:
+    contadorimpares += 1
+
+if numero4 % 2 == 0:
+    contadorpares += 1
+else:
+    contadorimpares += 1
+
+if numero5 % 2 == 0:
+    contadorpares += 1
+else:
+    contadorimpares += 1
+if numero6 % 2 == 0:
+    contadorpares += 1
+else:
+    contadorimpares += 1
+if numero7 % 2 == 0:
+    contadorpares += 1
+else:
+    contadorimpares += 1
+if numero8 % 2 == 0:
+    contadorpares += 1
+else:
+    contadorimpares += 1
+
+if numero9 % 2 == 0:
+    contadorpares += 1
+else:
+    contadorimpares += 1
+
+if numero10 % 2 == 0:
+    contadorpares += 1
+else:
+    contadorimpares += 1
+
+print("Quantidade pares:", contadorpares)
+print("Quantidade impares:", contadorimpares)
+
+maximo = max(lista)
+print("este é o numero maximo; ", maximo)
+minimo = min(lista)
+print("este é o numero minimo; ", minimo)
